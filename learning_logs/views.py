@@ -7,7 +7,7 @@ from .forms import TopicForm, EntryForm
 
 def index_view(request):
     """The home page for Learning Log."""
-    return render(request, 'learning_logs\index.html')
+    return render(request, 'learning_logs/index.html')
 
 @login_required
 def topics_view(request):
